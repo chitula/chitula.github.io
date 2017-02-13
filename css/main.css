@@ -6,9 +6,17 @@ body {
 }
 
 .nav-text {
-  color: white;
   font-size: 25px;
   margin-top: 30px;
+  white-space: pre;
+}
+
+.white {
+  color: white;
+}
+
+.yellow {
+  color: yellow;
 }
 
 .vr {
@@ -24,7 +32,7 @@ body {
     -moz-animation: blink 1.0s infinite;
     animation: blink 1.0s infinite;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 @keyframes blink {
     0% { opacity:1; }

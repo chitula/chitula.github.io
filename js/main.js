@@ -1,5 +1,5 @@
 $("#description").typed({
-      strings: [">^500 ^1000 server-side engineer"],
+      strings: [">^500 ^50 ^1000server-side engineer"],
       // typing speed
       typeSpeed: 0,
       // time before typing starts
@@ -7,7 +7,7 @@ $("#description").typed({
       // backspacing speed
       backSpeed: 0,
       // time before backspacing
-      backDelay: 500,
+      backDelay: 3000,
       // loop
       loop: false,
       // false = infinite
