@@ -3,7 +3,7 @@ $("#description").typed({
       // typing speed
       typeSpeed: 0,
       // time before typing starts
-      startDelay: 2000,
+      startDelay: 1000,
       // backspacing speed
       backSpeed: 0,
       // time before backspacing

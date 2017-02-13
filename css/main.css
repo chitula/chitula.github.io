@@ -63,8 +63,23 @@ body {
   /*background-color: white;*/
   position: absolute;
   top: 120px;
-  left: 25px;
-  margin: 0 auto;
+  /*left: 30px;*/
+  left: 30px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slide-in {
+    0%   {left:-30px;}
+    100% {left:30px;}
+}
+
+/* Standard syntax */
+@keyframes slide-in {
+    0%   {left:-30px;}
+    100% {left:30px;}
 }
 
 .share-button {
