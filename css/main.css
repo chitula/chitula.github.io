@@ -7,28 +7,36 @@ body {
 
 .nav-text {
   color: white;
+  font-size: 25px;
+  margin-top: 30px;
 }
 
-.typed-cursor{
+.vr {
+  border-left:1px solid #000;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.typed-cursor {
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+    -webkit-animation: blink 1.0s infinite;
+    -moz-animation: blink 1.0s infinite;
+    animation: blink 1.0s infinite;
     color: white;
-    padding-top: 30px;
-    height: 25px;
+    font-size: 20px;
 }
-@keyframes blink{
+@keyframes blink {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
-@-webkit-keyframes blink{
+@-webkit-keyframes blink {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
-@-moz-keyframes blink{
+@-moz-keyframes blink {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }

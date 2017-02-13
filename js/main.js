@@ -1,9 +1,9 @@
 $("#description").typed({
-      strings: ["Server-side engineer"],
+      strings: [">^500 ^1000 server-side engineer"],
       // typing speed
       typeSpeed: 0,
       // time before typing starts
-      startDelay: 1000,
+      startDelay: 2000,
       // backspacing speed
       backSpeed: 0,
       // time before backspacing
