@@ -16,12 +16,69 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <!-- typed.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+
     <link rel="stylesheet" href="css/main.css">
-    <script src="js/main.js"></script>
   </head>
 
   <body>
-      <div class="container">
+    <div class="container">
+      <!-- navbar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header" style="padding-top: 10px; padding-left: 20px">
+          <span class="nav-text white">Chitula Chipimo</span>
+          <span class="vr"></span>
+          <span id="description" class="nav-text white"></span>
+        </div>
+      </nav>
+
+      <!-- resume and social links -->
+      <div class="row resume-and-social">
+        <table>
+          <tr>
+            <td>
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/chitula.chipimo">
+                  <img class="share-button" src="assets/facebook-logo.png" alt="Facebook" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/chitula-chipimo-b8241673">
+                <img class="share-button" src="assets/linkedin-logo.png" alt="LinkedIn" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- GitHub -->
+              <a href="https://www.github.com/pchipimo">
+                <img class="share-button" src="assets/github-logo.png" alt="GitHub" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <!-- Resume -->
+              <form method="get" action="assets/Chitula Chipimo Resume.pdf">
+                <button class="btn btn-success">My Resume</button>
+              </form>
+            </td>
+          </tr>
+        </table>
       </div>
+
+      <!-- footer -->
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div style="text-align: center;">
+          <span class="white" style="padding-right: 30px">Site by Chitula Chipimo. Framework from <a href="http://getbootstrap.com/">Bootstrap</a></span>
+        </div>
+      </nav>
+    </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

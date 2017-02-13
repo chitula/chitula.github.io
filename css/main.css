@@ -2,5 +2,91 @@ body {
   background-image: url(../assets/coding.jpg);
   background-size: cover;
   height: 100vh;
-  background-position: right center;
+  background-position: 90% 30px;
+}
+
+.nav-text {
+  font-size: 25px;
+  margin-top: 30px;
+  white-space: pre;
+}
+
+.white {
+  color: white;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.vr {
+  border-left:1px solid #000;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 1.0s infinite;
+    -moz-animation: blink 1.0s infinite;
+    animation: blink 1.0s infinite;
+    color: white;
+    font-size: 25px;
+}
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.navbar-fixed-bottom {
+  bottom: -25px;
+  background: black;  /* default, if no gradients can be displayed */
+  background: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.resume-and-social {
+  /*background-color: white;*/
+  position: absolute;
+  top: 120px;
+  /*left: 30px;*/
+  left: 30px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slide-in {
+    0%   {left:-30px;}
+    100% {left:30px;}
+}
+
+/* Standard syntax */
+@keyframes slide-in {
+    0%   {left:-30px;}
+    100% {left:30px;}
+}
+
+.share-button {
+  width: 70px;
+  height: 70px;
+  margin: 15px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
 }
